@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingBottom="2dp"
+        android:paddingLeft="@dimen/dimen_15dp"
+        android:paddingRight="@dimen/dimen_15dp"
+        android:paddingTop="2dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_36"
+            android:scaleType="fitXY"
+            android:src="@drawable/logo"/>
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:orientation="horizontal"
+            android:layout_marginLeft="24dp"
+            android:background="@drawable/bg_14dp_fafafa"
+            android:layout_width="0dp"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_height="28dp">
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="14dp"
+                android:src="@drawable/search"
+                android:layout_marginLeft="10dp"
+                android:layout_height="14dp"/>
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@color/a4a4a4"
+                android:text="@string/all_wealth_possible"
+                android:layout_marginLeft="10dp"
+                android:layout_height="wrap_content"/>
+        </android.support.v7.widget.LinearLayoutCompat>
+    </android.support.v7.widget.LinearLayoutCompat>
+    <RelativeLayout
+        android:id="@+id/colortrack"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_below="@+id/title_homefragment"
+        android:background="@color/f5f7f9">
+
+        <me.weyye.library.colortrackview.ColorTrackTabLayout
+            android:id="@+id/tab"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/icon_category"
+            android:background="@color/f5f7f9"
+            app:tabIndicatorColor="#f00"
+            app:tabMode="scrollable"
+            app:tabSelectedTextColor="#f00"
+            app:tabTextAppearance="@style/TextAppearanceBig"
+            app:tabTextColor="@color/a1e1e1e"
+            android:layout_alignParentLeft="true"/>
+
+        <ImageView
+            android:id="@+id/icon_category"
+            android:layout_width="34dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:background="@drawable/shadow_add_titlebar_new"
+            android:paddingLeft="5dp"
+            android:scaleType="center"
+            android:src="@drawable/column_more"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+</android.support.v7.widget.LinearLayoutCompat>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_item_home"
+        android:icon="@mipmap/news_sel"
+        android:title="新闻" />
+
+    <item
+        android:id="@+id/menu_item_movie"
+        android:icon="@mipmap/shipin_sel"
+        android:title="视频" />
+
+    <item
+        android:id="@+id/menu_item_book"
+        android:icon="@mipmap/zbt_sel"
+        android:title="证宝通" />
+
+    <item
+        android:id="@+id/menu_item_personal"
+        android:icon="@mipmap/user_sel"
+        android:title="个人" />
+</menu>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">财界新闻</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="zhihu_detail_title">Zhihu daily</string>
+    <string name="wangyi_detail_title">Top news</string>
+    <string name="weixin_detail_title">WeChat</string>
+
+    <string name="transition_movie_img">transition_movie_img</string>
+    <string name="transition_book_img">transition_book_img</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="per_wg_land">网高新大陆</string>
+    <string name="per_collection">收藏</string>
+    <string name="per_look">浏览记录</string>
+    <string name="per_column">栏目</string>
+    <string name="per_news">新闻推送</string>
+    <string name="per_font_size">正文字号</string>
+    <string name="per_share_friend">推荐给好友</string>
+    <string name="per_about_us">关于我们</string>
+    <string name="per_night_mode">夜间模式</string>
+    <string name="per_duty">免责声明</string>
+    <string name="per_clear_cache">清除缓存</string>
+    <string name="per_update">app升级</string>
+    <string name="all_wealth_possible">一切财富皆有可能</string>
+    <string name="nomoredata">没有更多数据</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="@android:color/white">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgv_left"
+        android:layout_width="22dp"
+        android:layout_marginLeft="15dp"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/head_portrait"
+        android:layout_height="22dp" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_arrow_text"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/imgv_left"
+        android:layout_marginLeft="6dp"
+        android:textColor="@color/bg_gray"
+        android:text="设置"
+        android:textSize="@dimen/normal_tv_size"
+        android:gravity="center" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_arrow_value"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/imgv_skip"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:textColor="#828282"
+        android:textSize="12sp"
+        android:text="未设置" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgv_skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:visibility="gone"
+        android:textColor="#828282"
+        android:textSize="12sp"
+        android:src="@mipmap/black_forward" />
+
+
+</RelativeLayout>
